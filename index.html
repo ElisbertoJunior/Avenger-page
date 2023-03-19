@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Avenger Endgame</title>
+</head>
+<body>
+  <section class="hero">
+    <header class="hero__header">
+      <h1>
+        <img class="hero__header__logo" src="./dist/images/avengers-logo.png" alt="">
+      </h1>
+      <ul class="header__menu">
+        <li class="header__menu__item">
+          <a class="text--big" href="#">Home</a>
+        </li>
+        <li class="header__menu__item">
+          <a class="text--big" href="#">Sobre</a>
+        </li>
+        <li class="header__menu__item">
+          <a class="text--big" href="#">Sinopse</a>
+        </li>
+        <li class="header__menu__item">
+          <a class="text--big" href="#">Vigadores</a>
+        </li>
+      </ul>
+    </header>
+    <main class="hero__main">
+      <h2>
+        <img src="./dist/images/hero-logo.png" alt="Avengers Logo">
+      </h2>
+      <h3 class="title--small">
+        Venha assistir o desfecho dessa saga epica!
+      </h3>
+      <p class="text">
+        Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.
+      </p>
+      <a class="title--small" href="#">
+        Veja onde assistir!
+      </a>
+    </main>
+  </section>
+  <section class="about-avengers">
+    <h2 class="title">
+      Sobre os Vingadores
+    </h2>
+    <nav  class="about-avengers__tabs">
+      <button data-tab-button="originais" class="about-avengers__tabs__button about-avengers__tabs__button--is-active">
+        Vingadores originais
+      </button>
+      <button data-tab-button="novos" class="about-avengers__tabs__button">
+        Vingadores novos
+      </button>
+    </nav>
+    <ul data-tab-id="originais" class="about-avengers__list about-avengers__list--is-active">
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/cap.jpg" alt="">
+        <h3 class="title--small">Capitao America</h3>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur 
+        </p>
+      </li>
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/tony.jpg" alt="">
+      </li>
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/thor.jpg" alt="">
+      </li>
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/bruce.jpg" alt="">
+      </li>
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/nat.jpg" alt="">
+      </li>
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/clint.jpg" alt="">
+      </li>
+    </ul>
+    <ul data-tab-id="novos" class="about-avengers__list">
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/pantera.jpg" alt="">
+      </li>
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/strage.jpg" alt="">
+      </li>
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/san.jpg" alt="">
+      </li>
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/formiga.jpg" alt="">
+      </li>
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/maquina.jpg" alt="">
+      </li>
+      <li class="about-avengers__list__item">
+        <img src="./dist/images/avengers/miranha.jpg" alt="">
+      </li>
+    </ul>
+  </section>
+  <section class="about">
+    <h2 class="title">Sobre este grande filme</h2>
+    <div class="about__container">
+      <img class="about__container__img" src="./dist/images/sobre.jpg" alt="">
+      <p class="text--big">
+        Vingadores: Ultimato" é um filme de super-heróis de 2019 da Marvel, dirigido pelos irmãos Russo. Após Thanos eliminar metade da vida no universo, os Vingadores tentam desfazer o estalar de dedos de Thanos coletando as Joias do Infinito no passado. A Viúva Negra se sacrifica para que a manopla possa ser ativada e, no final, Tony Stark usa as Joias para destruir Thanos e seus soldados, mas morre no processo. O filme foi um grande sucesso de bilheteria e encerrou a saga dos Vingadores nos cinemas.
+      </p>
+    </div>
+  </section>
+ 
+  <script src="./dist/scripts/main.js"></script>
+</body>
+
+</html>

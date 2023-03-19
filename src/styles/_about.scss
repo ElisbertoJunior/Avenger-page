@@ -1,0 +1,25 @@
+@use 'variables';
+
+.about {
+  padding: 5.6vw;
+  
+
+  h2 {
+    text-align: center;
+    color: variables.$secondaryTextColor;
+    margin: 70px 0;
+  }
+
+  &__container {
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+    &__img {
+      width: 400px;
+    }
+  }
+  
+}

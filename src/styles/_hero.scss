@@ -1,0 +1,75 @@
+@use 'variables';
+.hero {
+  padding: 1vw 5.6vw;
+  background-image: url('../images/banner1920x1080.jpg');
+  height: 100vh;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+      height: 80px;
+    }
+
+    .header__menu {
+      display: flex;
+      gap: 1.25rem;
+
+      &__item {
+        list-style: none;
+
+        a {
+          text-decoration: none;
+          color: variables.$textColor;
+          transition:  .5s ease;
+
+          &:hover {
+            font-size: 1.375rem;
+            font-weight: bold;
+          }
+        }
+
+      }
+
+    }
+
+  }
+
+  &__main {
+    margin-top: 12vh;
+    width: 50%;
+
+    h3 {
+      color: variables.$secondaryTextColor;
+      margin-top: 0.625rem;
+    }
+
+    p {
+      width: 43.75rem;
+      margin-top: 0.625rem;
+      color: variables.$secondaryTextColor;
+    }
+
+    a {
+      display: block;
+      max-width: 500px;
+      margin-top: 2rem;
+      text-decoration: none;
+      background-color: #541e9c99;
+      text-align: center;
+      padding: 20px 0;
+
+      border-radius: 5px;
+
+      &:hover {
+        color: variables.$textColor;
+        font-weight: bold;
+
+        background-color: rgb(84, 30, 156,);
+      }
+    }
+  }
+  
+}
