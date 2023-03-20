@@ -10,12 +10,17 @@
     gap: 24px;
     grid-template-columns: repeat(3, 1fr);
 
+    @media screen and (max-width: 1023px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
     &--is-active {
       display: grid;
     }
 
     &__item {
       list-style: none;
+    
       
       img {
         width: 100%;
@@ -23,6 +28,38 @@
         border-radius: 5px;
       }
     }
+
+    .villain {
+
+      &__item {
+        width: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        list-style: none;
+
+        @media screen and (max-width: 1023px) {
+          display: block;
+          width: 60vw;
+        }
+
+       
+
+        &__img {
+          width: 50vh;
+
+          @media screen and (max-width: 768px) {
+            display: block;
+            width: 70vw;
+          }
+          
+        }
+      }
+
+
+    }
+
   }
 
   &__tabs {

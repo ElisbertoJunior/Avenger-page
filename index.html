@@ -18,22 +18,13 @@
       </h1>
       <ul class="header__menu">
         <li class="header__menu__item">
-          <a class="text--big" href="#">Home</a>
-        </li>
-        <li class="header__menu__item">
-          <a class="text--big" href="#">Sobre</a>
-        </li>
-        <li class="header__menu__item">
-          <a class="text--big" href="#">Sinopse</a>
-        </li>
-        <li class="header__menu__item">
-          <a class="text--big" href="#">Vigadores</a>
+          <a class="text--big" href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiFoMmlm-n9AhUUQUgAHc8yBJ0YABAAGgJjZQ&ohost=www.google.com&cid=CAESa-D2tSLgXonAkJtXg1NqsPCbkATbYzCPv4cJzUfm5u_9avIzb034boHLaLPyEJe_0o7bpQ9KhIxHMyPTXPl4374rT3TJO1ojUvUVST-MT_BSYhNI5VdUNsTz0w8RwCSYYCHjjMRW63Askjtl&sig=AOD64_2lergEs_fGKN22MKl7JtEM4wqUPw&q&adurl&ved=2ahUKEwjU-cOlm-n9AhUQALkGHdc3D2EQ0Qx6BAgHEAE">Assistir no Disney+</a>
         </li>
       </ul>
     </header>
     <main class="hero__main">
       <h2>
-        <img src="./dist/images/hero-logo.png" alt="Avengers Logo">
+        <img class="hero__main__img" src="./dist/images/hero-logo.png" alt="Avengers Logo">
       </h2>
       <h3 class="title--small">
         Venha assistir o desfecho dessa saga epica!
@@ -41,8 +32,8 @@
       <p class="text">
         Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.
       </p>
-      <a class="title--small" href="#">
-        Veja onde assistir!
+      <a class="btn-trailer title--small">
+       Assista o trailer!
       </a>
     </main>
   </section>
@@ -57,14 +48,13 @@
       <button data-tab-button="novos" class="about-avengers__tabs__button">
         Vingadores novos
       </button>
+      <button data-tab-button="thanos" class="about-avengers__tabs__button">
+        O grande vilão
+      </button>
     </nav>
     <ul data-tab-id="originais" class="about-avengers__list about-avengers__list--is-active">
       <li class="about-avengers__list__item">
         <img src="./dist/images/avengers/cap.jpg" alt="">
-        <h3 class="title--small">Capitao America</h3>
-        <p class="text">
-          Lorem ipsum dolor sit amet consectetur 
-        </p>
       </li>
       <li class="about-avengers__list__item">
         <img src="./dist/images/avengers/tony.jpg" alt="">
@@ -102,16 +92,59 @@
         <img src="./dist/images/avengers/miranha.jpg" alt="">
       </li>
     </ul>
+    <ul data-tab-id="thanos" class="about-avengers__list villain">
+      <li class="about-avengers__list__villain villain__item">
+        <img class="villain__item__img" src="./dist/images/Thanos.png" alt="">
+        <div>
+          <h3 class="title--small">Thanos</h3>
+          <p class="text">Thanos é um vilão dos quadrinhos da Marvel que é apresentado no filme Vingadores: Guerra Infinita e Vingadores: Ultimato. Ele é um titã que busca coletar as seis Joias do Infinito para realizar seu objetivo de equilibrar o universo, eliminando metade da população. Em Ultimato, após os Vingadores descobrirem sua localização no passado, eles viajam no tempo para recuperar as Joias antes que Thanos possa usá-las novamente. Thanos, por sua vez, descobre os planos dos heróis e decide viajar para o futuro para destruir todos eles. O confronto final entre Thanos e os Vingadores é um dos momentos mais icônicos do filme, culminando em uma batalha épica que decidirá o destino do universo.</p>
+        </div>
+      </li>
+    </ul>
   </section>
   <section class="about">
     <h2 class="title">Sobre este grande filme</h2>
     <div class="about__container">
-      <img class="about__container__img" src="./dist/images/sobre.jpg" alt="">
-      <p class="text--big">
+      <img class="about__container__img" src="./dist/images/sobre.jpg" alt="Capa">
+      <p class="text">
         Vingadores: Ultimato" é um filme de super-heróis de 2019 da Marvel, dirigido pelos irmãos Russo. Após Thanos eliminar metade da vida no universo, os Vingadores tentam desfazer o estalar de dedos de Thanos coletando as Joias do Infinito no passado. A Viúva Negra se sacrifica para que a manopla possa ser ativada e, no final, Tony Stark usa as Joias para destruir Thanos e seus soldados, mas morre no processo. O filme foi um grande sucesso de bilheteria e encerrou a saga dos Vingadores nos cinemas.
       </p>
     </div>
   </section>
+  <footer class="footer">
+    <div class="footer__container">
+      <img class="footer__logo" src="./dist/images/hero-logo.png" alt="Disney+">
+      <ul class="footer__links">
+        <li class="footer__links__item">
+          <a href="#" class="text">Termos e Condições de Uso</a>
+        </li>
+        <li class="footer__links__item">
+          <a href="#" class="text">Política de privacidade</a>
+        </li>
+        <li class="footer__links__item">
+          <a href="#" class="text">Proteção de Dados no Brasil</a>
+        </li>
+        <li class="footer__links__item">
+          <a href="#" class="text">Anúncios personalizados</a>
+        </li>
+        <li class="footer__links__item">
+          <a href="#" class="text">Ajuda</a>
+        </li>
+        
+      </ul>
+      <p class="text--small">
+        ® 2023 Disney, MARVEL e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga.
+        Conteúdo sujeito a disponibilidade.
+      </p>
+  
+    </div>
+  </footer>
+  <div class="modal">
+    <div class="modal__content">
+      <div class="modal__content__close">FECHAR</div>
+      <iframe width="660" height="415" src="https://www.youtube.com/embed/FWatWhfuCxs?controls=0&amp;start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+  </div>
  
   <script src="./dist/scripts/main.js"></script>
 </body>

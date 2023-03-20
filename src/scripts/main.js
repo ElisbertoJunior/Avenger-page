@@ -1,6 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll('[data-tab-button]');
-  
+  const trailerButton = document.querySelector('.btn-trailer');
+  const closeButton = document.querySelector('.modal__content__close')
+  const modal = document.querySelector('.modal');
+
+  closeButton.addEventListener('click', () => {
+    modal.classList.remove('modal--is-active');
+  })
+
+  trailerButton.addEventListener('click', () => {
+    modal.classList.add('modal--is-active');
+  });
+
   buttons.forEach(button => {
     button.addEventListener("click", (btn) => {
     const targetTab = btn.target.dataset.tabButton;

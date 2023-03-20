@@ -2,6 +2,7 @@
 @use 'hero';
 @use 'about';
 @use 'about-avengers';
+@use 'footer';
 
 * {
   margin: 0;
@@ -54,5 +55,32 @@ body {
 
 .title--small {
   @include title(1.75rem);
+
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+
+  &__content {
+    text-align: right;
+
+    &__close {
+      cursor: pointer;
+    }
+  }
+
+  &--is-active {
+    display: flex;
+  }
 
 }
