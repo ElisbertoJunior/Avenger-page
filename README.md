@@ -2,17 +2,15 @@
 
 ![
 
-![Avengers Page](link
+![Avengers Page]([link](https://avenger-page.vercel.app/))
 
 ![Avengers
 
 
-Avengers Page](link_para_imagem.jpg)
-
 Welcome to the 
 
 Welcome
-**Avengers Page**, the official landing page for fans of the movie **Avengers: Endgame**! Here, you will find exciting information, exclusive details, and a sneak peek into one of the greatest cinematic sagas of all time.
+**Avengers Page**, the landing page for fans of the movie **Avengers: Endgame**! Here, you will find exciting information, exclusive details, and a sneak peek into one of the greatest cinematic sagas of all time.
 
 ## Overview
 
@@ -31,54 +29,13 @@ The **Avengers Page** is a platform designed to provide a unique experience for 
 Visit the 
 
 Visit the **
-**Avengers Page** [by clicking here](link_to_page.html) to immerse yourself in the Marvel universe. Stay updated on the latest news, interact with fellow fans, and feel the excitement of *Avengers: Endgame* with every click.
+**Avengers Page** [by clicking here](https://avenger-page.vercel.app/) to immerse yourself in the Marvel universe. Stay updated on the latest news, interact with fellow fans, and feel the excitement of *Avengers: Endgame* with every click.
 
 **Note**: The *Avengers Page* is a tribute to the Marvel films and the passionate fans of the saga. This website is not official and is not affiliated with Marvel Studios.
 
-## Screenshots
-
-![Screenshot 1](screenshot_1.jpg)
-![
-![Screenshot 2](screenshotScreenshot 2](screenshot_2.jpg)
-
-## Contact
-
-For suggestions, questions, or more information, please contact us via email: contact@avengerspage.com.
-
-Follow us on social media:
 
 
-For suggestions, questions, or more information, please contact us via email: contact@avengerspage.com.
-
-Follow us on social
-
-
-For suggestions, questions, or more information, please contact us via email: contact@avengerspage.com.
-
-Follow us on
-
-
-For suggestions, questions, or more information, please contact us via email: contact@avengerspage.com.
-
-
-
-For suggestions, questions, or more information, please contact us
-
-
-For suggestions, questions, or more information, please contact
-
-
-For suggestions, questions, or more information
-
-
-For suggestions, questions
-
-
-- Facebook: [Avengers Page](link_to_facebook)
-- Twitter: [@AvengersPage](link_to_twitter)
-- Instagram: [@AvengersPage](link_to_instagram)
-
-Enjoy your journey through the Avengers universe on our official landing page!
+Enjoy your journey through the Avengers universe on our landing page!
 
 
 Enjoy your journey through the Avengers universe on
